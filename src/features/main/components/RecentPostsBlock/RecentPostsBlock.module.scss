@@ -1,0 +1,59 @@
+.RecentPostsBlock {
+  margin-top: 58px;
+  background-color: var(--secondary-bg-color);
+  
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 0 70px;
+  
+  @media (min-width: 800px) {
+    text-align: left;
+    font-size: 22px;
+    padding: 0 148px;
+  }
+}
+
+.postList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 11px 32px 11px;
+  gap: 17px;
+  justify-content: center;
+}
+
+.postCard {
+  background-color: var(--main-bg-color);
+  padding: 12px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 4px;
+  max-width: 418px;
+
+  @media (min-width: 800px) {
+    padding: 24px;
+  }
+}
+
+.postTitle {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 360px;
+
+
+}
+
+.postInfo {
+  display: flex;
+  gap: 24px;
+}

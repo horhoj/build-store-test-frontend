@@ -1,0 +1,80 @@
+.FeatureWorksBlock {
+  padding: 0 0 100px 0
+}
+
+.title {
+  text-align: center;
+  min-height: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 0 70px;
+}
+
+.featList {
+  padding: 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 900px;
+  margin: auto;
+
+  @media (min-width: 800px) {}
+}
+
+.featCard {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  border-bottom: 1px solid #E0E0E0;
+  padding: 10px 0 20px 0;
+
+  @media (min-width: 800px) {
+    flex-direction: row;
+  }
+}
+
+.featCardImg {
+  width: 340px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.featCardImgWrapper {}
+
+.featCardData {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.featCardTitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  @media (min-width: 800px) {
+    font-size: 30px;
+  }
+}
+
+.featCardYear {
+  background-color: var(--alternation-bg-color);
+  color: var(--alternation-color);
+  border-radius: 16px;
+  padding: 0 15px;
+}
+
+.featCardType {
+  color: var(--secondary-color);
+}
+
+.featCardDescription {
+  display: flex;
+  gap: 26px;
+}
